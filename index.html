@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nashoba Power Wash | House Washing &amp; Patio Restoration in Westford, MA</title>
+  <meta name="description" content="Owner-operated power washing in Westford, MA and nearby towns. House washes, patio restoration, composite deck and fence cleaning. Book a free in-person estimate.">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,700;1,800;1,900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/frames/f001.webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#services">Skip to services</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand" aria-label="Nashoba Power Wash home">
+      <img src="assets/logo-sm.webp" alt="Nashoba Power Wash" width="704" height="330">
+    </a>
+
+    <nav class="main-nav" aria-label="Main">
+      <div class="nav-services">
+        <button class="nav-link services-toggle" aria-expanded="false" aria-controls="services-menu">
+          Services
+          <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <div class="services-menu" id="services-menu" role="menu">
+          <a role="menuitem" href="#svc-house"><span>House Washing</span><small>Vinyl siding, soft-washed</small></a>
+          <a role="menuitem" href="#svc-patio" class="featured"><span>Patio Restoration</span><small>Clean + polymeric re-sand</small></a>
+          <a role="menuitem" href="#svc-patio-clean"><span>Patio Cleaning</span><small>Pavers, stone, concrete</small></a>
+          <a role="menuitem" href="#svc-deck"><span>Composite Deck Cleaning</span><small>Boards, rails, stairs</small></a>
+          <a role="menuitem" href="#svc-fence"><span>Fence Cleaning</span><small>Vinyl panels, algae off</small></a>
+          <a role="menuitem" href="#svc-mold"><span>Walkways &amp; Mold Removal</span><small>Steps, walks, any surface</small></a>
+          <a role="menuitem" href="#services" class="all">See all services &rarr;</a>
+        </div>
+      </div>
+      <a class="nav-link" href="#how">How I Work</a>
+      <a class="nav-link" href="#why">Why Nashoba</a>
+      <a class="nav-link" href="#area">Service Area</a>
+      <a class="nav-link" href="#faq">FAQ</a>
+    </nav>
+
+    <a href="#quote" class="btn btn-primary btn-sm header-cta">Free Quote</a>
+    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <p class="mm-label">Services</p>
+    <a href="#svc-house">House Washing</a>
+    <a href="#svc-patio">Patio Restoration</a>
+    <a href="#svc-patio-clean">Patio Cleaning</a>
+    <a href="#svc-deck">Composite Deck Cleaning</a>
+    <a href="#svc-fence">Fence Cleaning</a>
+    <a href="#svc-mold">Walkways &amp; Mold Removal</a>
+    <p class="mm-label">More</p>
+    <a href="#how">How I Work</a>
+    <a href="#why">Why Nashoba</a>
+    <a href="#area">Service Area</a>
+    <a href="#faq">FAQ</a>
+    <a href="#quote" class="btn btn-primary">Get a Free Quote</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ SCROLL VIDEO HERO ============ -->
+<section class="scrolly" id="hero" aria-label="Dirty to clean: a full property transformation">
+  <div class="scrolly-sticky">
+    <canvas id="scrolly-canvas" aria-hidden="true"></canvas>
+    <div class="scrolly-shade"></div>
+
+    <div class="hero-intro" data-show="0-0.07">
+      <p class="eyebrow">Westford, MA &middot; Owner-operated</p>
+      <h1 class="display">Dirty to clean.<br><span>One scroll.</span></h1>
+      <p class="lede">House washes, patio restoration, decks and fences across the Nashoba Valley. Keep scrolling and watch a whole property come back.</p>
+      <div class="scroll-cue"><span></span>Scroll</div>
+    </div>
+
+    <div class="hero-end" data-show="0.93-1.01">
+      <div class="hero-end-actions">
+        <a href="#quote" class="btn btn-primary">Book a Free Estimate</a>
+        <a href="#services" class="btn btn-ghost">See Services</a>
+      </div>
+    </div>
+
+    <ol class="stage-rail" aria-label="Jump to a service in the video">
+      <li><button data-time="1">House</button></li>
+      <li><button data-time="5.5">Walkway</button></li>
+      <li><button data-time="10.5">Deck</button></li>
+      <li><button data-time="15.5">Patio</button></li>
+      <li><button data-time="20.5">Fence</button></li>
+      <li><button data-time="27">Done</button></li>
+    </ol>
+    <div class="scrolly-progress"><span id="scrolly-bar"></span></div>
+    <div class="loading" id="scrolly-loading">Loading <span>0%</span></div>
+  </div>
+</section>
+
+<!-- ============ QUICK SERVICES BAR ============ -->
+<section class="quick" aria-label="Services at a glance">
+  <div class="wrap">
+    <p class="quick-label">What I clean</p>
+    <div class="quick-chips">
+      <a href="#svc-house">House Washing</a>
+      <a href="#svc-patio" class="hot">Patio Restoration</a>
+      <a href="#svc-patio-clean">Patio Cleaning</a>
+      <a href="#svc-deck">Composite Decks</a>
+      <a href="#svc-fence">Fences</a>
+      <a href="#svc-mold">Walkways &amp; Mold</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="services" id="services">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Services</p>
+      <h2 class="display">What I can do for your place</h2>
+      <p class="section-sub">Every job starts with a free, in-person estimate so the price is accurate and we both know exactly what's getting cleaned.</p>
+    </header>
+
+    <article class="svc svc-feature" id="svc-patio">
+      <div class="svc-tag">Signature service</div>
+      <div class="svc-body">
+        <h3>Patio Restoration</h3>
+        <p>This is the one I love most. I blast the mold and old sand out of every joint, let the patio dry fully, then re-sand it with polymeric sand so it locks in and looks brand new. A lot of power washing companies around here don't take these on. I do, and I take my time with them.</p>
+        <ul class="svc-facts">
+          <li><b>Timeline</b> 2&ndash;3 days (the patio has to dry before sanding)</li>
+          <li><b>Includes</b> Deep clean, joint clean-out, polymeric re-sand</li>
+          <li><b>Good for</b> Pavers that look dull, weedy, or sunken at the joints</li>
+        </ul>
+        <a href="#quote" class="btn btn-primary" data-service="Patio Restoration">Get a patio estimate</a>
+      </div>
+      <div class="svc-visual" aria-hidden="true">
+        <div class="pavers"></div>
+      </div>
+    </article>
+
+    <div class="svc-grid">
+      <article class="svc" id="svc-house">
+        <div class="svc-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M6 22 24 8l18 14v18a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2Z"/><path d="M19 42V30h10v12"/></svg>
+        </div>
+        <h3>House Washing</h3>
+        <p>Vinyl siding cleaned with a foam-applied wash that kills the mold and green, then rinsed from the roofline down so nothing streaks.</p>
+        <p class="svc-time">About 3&ndash;4 hours, depending on the house</p>
+        <a href="#quote" class="svc-link" data-service="House Washing">Request a quote &rarr;</a>
+      </article>
+
+      <article class="svc" id="svc-patio-clean">
+        <div class="svc-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><rect x="6" y="6" width="16" height="16" rx="1"/><rect x="26" y="6" width="16" height="16" rx="1"/><rect x="6" y="26" width="16" height="16" rx="1"/><rect x="26" y="26" width="16" height="16" rx="1"/></svg>
+        </div>
+        <h3>Patio Cleaning</h3>
+        <p>Pavers, stone, and concrete cleaned with a surface cleaner for an even finish with no stripes. Want the joints redone too? Ask about restoration.</p>
+        <p class="svc-time">Timing depends on square footage</p>
+        <a href="#quote" class="svc-link" data-service="Patio Cleaning">Request a quote &rarr;</a>
+      </article>
+
+      <article class="svc" id="svc-deck">
+        <div class="svc-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M4 18h40M4 26h40M4 34h40"/><path d="M10 18v24M38 18v24"/><path d="M8 10h32"/></svg>
+        </div>
+        <h3>Composite Deck Cleaning</h3>
+        <p>Grime and mildew off the boards, rails, and stairs. I use the right pressure for composite so your deck comes back without damage.</p>
+        <p class="svc-time">About 2&ndash;3 hours, depending on the deck</p>
+        <a href="#quote" class="svc-link" data-service="Composite Deck Cleaning">Request a quote &rarr;</a>
+      </article>
+
+      <article class="svc" id="svc-fence">
+        <div class="svc-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M8 42V12l4-4 4 4v30M22 42V12l4-4 4 4v30M36 42V12l4-4 4 4v30"/><path d="M4 20h44M4 32h44"/></svg>
+        </div>
+        <h3>Fence Cleaning</h3>
+        <p>Green algae off and vinyl panels bright white again. A turbo nozzle gets into the texture and the corners where grime hides.</p>
+        <p class="svc-time">Depends on the length of fence</p>
+        <a href="#quote" class="svc-link" data-service="Fence Cleaning">Request a quote &rarr;</a>
+      </article>
+
+      <article class="svc" id="svc-mold">
+        <div class="svc-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48"><path d="M24 6c6 9 12 15 12 22a12 12 0 0 1-24 0c0-7 6-13 12-22Z"/><path d="M19 30a5 5 0 0 0 5 5"/></svg>
+        </div>
+        <h3>Walkways &amp; Mold Removal</h3>
+        <p>Walkways, front steps, and any other surface with mold or grime building up. That growth doesn't just look bad, it wears the surface down over time.</p>
+        <p class="svc-time">Ask about any surface</p>
+        <a href="#quote" class="svc-link" data-service="Walkways / Mold Removal">Request a quote &rarr;</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- wave divider -->
+<div class="wave wave-to-navy" aria-hidden="true">
+  <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0 40c160 30 320 40 480 20S800 0 960 10s320 50 480 40V80H0Z"/></svg>
+</div>
+
+<!-- ============ HOW I WORK ============ -->
+<section class="how" id="how">
+  <div class="wrap">
+    <header class="section-head on-dark">
+      <p class="eyebrow">How I work</p>
+      <h2 class="display">A game plan before every job</h2>
+      <p class="section-sub">I walk the property and map out the job before I start. That way you know exactly what you're getting, and nothing gets missed.</p>
+    </header>
+
+    <ol class="steps">
+      <li>
+        <span class="step-num">01</span>
+        <h3>Free in-person estimate</h3>
+        <p>I come out, look at everything, and give you an accurate price. Send a photo first and I can give you a range.</p>
+      </li>
+      <li>
+        <span class="step-num">02</span>
+        <h3>We agree on the details</h3>
+        <p>Which surfaces, which areas, anything you're unsure about. Clear up front, so there are no surprises after.</p>
+      </li>
+      <li>
+        <span class="step-num">03</span>
+        <h3>Rinse, treat, protect</h3>
+        <p>Surfaces get pre-rinsed before any cleaner goes on. Plants and windows are rinsed down to protect them from the wash.</p>
+      </li>
+      <li>
+        <span class="step-num">04</span>
+        <h3>Bottom up, top down</h3>
+        <p>On houses I apply from the ground up so it won't streak, then rinse from the top down and check every runoff spot.</p>
+      </li>
+    </ol>
+
+    <div class="careful">
+      <h3>Careful where it counts</h3>
+      <ul>
+        <li>Wood gets very low pressure and no bleach. A little too much pressure can hurt it.</li>
+        <li>Windows and fabrics are kept clear and rinsed to prevent stains.</li>
+        <li>Working near a pool? I'll let you know beforehand that a little dirt may get in.</li>
+        <li>If a surface is already damaged (oxidized or broken siding, a chewed-up wood deck), I'll tell you honestly rather than make it worse.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="wave wave-from-navy" aria-hidden="true">
+  <svg viewBox="0 0 1440 80" preserveAspectRatio="none"><path d="M0 0h1440v30c-160 30-320 40-480 20S640 0 480 10 160 60 0 40Z"/></svg>
+</div>
+
+<!-- ============ WHY ============ -->
+<section class="why" id="why">
+  <div class="wrap why-grid">
+    <div class="why-copy">
+      <p class="eyebrow">Why Nashoba</p>
+      <h2 class="display">Your job matters more to me</h2>
+      <p>I'm Doug. I started Nashoba Power Wash in the summer of 2025 out of Westford, and I do every job myself. I take on a small number of clients each summer, so your property gets my full attention, not a rotating crew.</p>
+      <p>Bigger companies have hundreds of customers. For me, every single one counts, and I like getting to know the people I work for. A lot of homeowners don't realize how big a difference a good wash makes until they see it. That moment is my favorite part.</p>
+      <a href="#quote" class="btn btn-primary">Book a Free Estimate</a>
+    </div>
+    <ul class="why-list">
+      <li><b>The owner on every job</b><span>You talk to me, and I'm the one doing the work.</span></li>
+      <li><b>Patio restoration</b><span>Joint clean-out and polymeric re-sand, a service many local companies skip.</span></li>
+      <li><b>Clear, fast communication</b><span>Quick replies and plain explanations of what I'll do and why.</span></li>
+      <li><b>Attention to detail</b><span>The small joints, the corners, the runoff spots. I get them.</span></li>
+      <li><b>Fair local pricing</b><span>Small-business rates, priced by the job after an in-person look.</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section class="story">
+  <div class="wrap">
+    <figure class="story-card">
+      <p class="eyebrow">A job I'm proud of</p>
+      <blockquote>
+        Halfway through a patio restoration, I realized it was going to take a lot longer than I'd planned. The homeowner, a business owner himself, got it right away and told me to just update the bill. I finished it out, and the patio looked great.
+      </blockquote>
+      <figcaption>Patio restoration &middot; Nashoba Valley</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ AREA ============ -->
+<section class="area" id="area">
+  <div class="wrap area-grid">
+    <div>
+      <p class="eyebrow">Service area</p>
+      <h2 class="display">Based in Westford, working all around it</h2>
+      <p>I cover towns within about 20 miles of Westford (01886). If you're nearby and don't see your town listed, just ask. Travel is figured into your quote.</p>
+      <ul class="towns">
+        <li>Westford</li><li>Chelmsford</li><li>Groton</li><li>Acton</li>
+        <li>Tewksbury</li><li>Littleton</li><li>Lowell</li><li>Ayer</li>
+        <li>Burlington</li><li>Concord</li><li>Carlisle</li><li>+ nearby towns</li>
+      </ul>
+    </div>
+    <div class="season">
+      <h3>Booking for the season</h3>
+      <p>Busy season runs <b>mid-May through August</b>. I book estimates through the spring so I can get right to work once summer starts. Get on the schedule early for the best dates.</p>
+      <div class="season-bar" aria-hidden="true">
+        <span>Mar</span><span>Apr</span><span class="on">May</span><span class="on">Jun</span><span class="on">Jul</span><span class="on">Aug</span><span>Sep</span>
+      </div>
+      <p class="season-note">Estimates in spring &rarr; work all summer</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="wrap narrow">
+    <header class="section-head">
+      <p class="eyebrow">Questions</p>
+      <h2 class="display">Good to know</h2>
+    </header>
+    <details>
+      <summary>Are you taking new customers?</summary>
+      <p>Yes. I'm booking estimates now for the upcoming season. Send a request below with what you need and I'll get back to you quickly.</p>
+    </details>
+    <details>
+      <summary>How much does it cost?</summary>
+      <p>Every job is priced individually based on the size, the surfaces, and how much work it takes. The free in-person estimate gives you an exact price. If you send a photo first, I can give you a ballpark range.</p>
+    </details>
+    <details>
+      <summary>What do you need from me on the day?</summary>
+      <p>An outdoor water source I can hook up to. I work on dry days. A light sprinkle is fine, but I won't wash in the rain.</p>
+    </details>
+    <details>
+      <summary>Is there anything you won't clean?</summary>
+      <p>If cleaning could cause more damage, I'll say so. That includes badly worn or chewed-up wood decks, heavily oxidized siding, broken siding, and old siding that hasn't been painted in a long time.</p>
+    </details>
+    <details>
+      <summary>How do I pay?</summary>
+      <p>Cash, check, or Venmo, paid directly to me.</p>
+    </details>
+    <details>
+      <summary>Why does power washing matter beyond looks?</summary>
+      <p>Mold and grime don't just look bad. Left alone, they break surfaces down over time, which costs more to fix later. Regular cleaning protects what you have.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ============ QUOTE ============ -->
+<section class="quote" id="quote">
+  <div class="wrap quote-grid">
+    <div class="quote-copy">
+      <p class="eyebrow">Free estimate</p>
+      <h2 class="display">Let's get you on the schedule</h2>
+      <p>Tell me what you'd like cleaned. The more specific, the better: which surfaces, roughly how big, and anything that's bothering you. That way the quote covers exactly what you want.</p>
+      <ul class="quote-points">
+        <li>Free, in-person estimate</li>
+        <li>Photos welcome for a quick price range</li>
+        <li>Cash, check, or Venmo</li>
+      </ul>
+    </div>
+
+    <form class="quote-form" id="quote-form" novalidate>
+      <div class="row">
+        <label>Name<input name="name" autocomplete="name" required></label>
+        <label>Phone<input name="phone" type="tel" autocomplete="tel" required></label>
+      </div>
+      <div class="row">
+        <label>Email<input name="email" type="email" autocomplete="email"></label>
+        <label>Town<input name="town" autocomplete="address-level2" placeholder="e.g. Chelmsford" required></label>
+      </div>
+      <fieldset>
+        <legend>Services you're interested in</legend>
+        <div class="checks">
+          <label><input type="checkbox" name="service" value="House Washing">House Washing</label>
+          <label><input type="checkbox" name="service" value="Patio Restoration">Patio Restoration</label>
+          <label><input type="checkbox" name="service" value="Patio Cleaning">Patio Cleaning</label>
+          <label><input type="checkbox" name="service" value="Composite Deck Cleaning">Composite Deck</label>
+          <label><input type="checkbox" name="service" value="Fence Cleaning">Fence Cleaning</label>
+          <label><input type="checkbox" name="service" value="Walkways / Mold Removal">Walkways / Mold</label>
+        </div>
+      </fieldset>
+      <label>Exactly what would you like done?
+        <textarea name="details" rows="4" required placeholder="e.g. Front and left side of the house (2-story vinyl), plus the back paver patio, about 15x20 ft. Joints are full of moss."></textarea>
+      </label>
+      <button class="btn btn-primary btn-block" type="submit">Request My Free Estimate</button>
+      <p class="form-status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <img src="assets/logo-sm.webp" alt="Nashoba Power Wash" class="footer-logo" width="704" height="330">
+      <p>Owner-operated power washing out of Westford, MA.</p>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <a href="#svc-house">House Washing</a>
+      <a href="#svc-patio">Patio Restoration</a>
+      <a href="#svc-patio-clean">Patio Cleaning</a>
+      <a href="#svc-deck">Composite Decks</a>
+      <a href="#svc-fence">Fences</a>
+      <a href="#svc-mold">Walkways &amp; Mold</a>
+    </div>
+    <div>
+      <h4>Service area</h4>
+      <p>Westford, Chelmsford, Groton, Acton, Tewksbury, Littleton, Lowell, Ayer, Burlington, Concord, Carlisle and nearby towns.</p>
+    </div>
+    <div>
+      <h4>Get started</h4>
+      <a href="#quote" class="btn btn-primary btn-sm">Free Estimate</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; <span id="year">2026</span> Nashoba Power Wash</p>
+  </div>
+</footer>
+
+<!-- Mobile action bar: services + quote always one tap away -->
+<nav class="mobile-bar" aria-label="Quick actions">
+  <a href="#services">Services</a>
+  <a href="#quote" class="mb-cta">Free Quote</a>
+</nav>
+
+<script src="script.js"></script>
+</body>
+</html>
